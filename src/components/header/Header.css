@@ -19,6 +19,12 @@
     margin-left: 2rem;
 }
 
+
+.header-top ul li:first-child{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
 .header-top ul li .icon:last-child {
     margin-right: 2rem;
     width: 30px;
@@ -60,4 +66,13 @@
 
 .header-bottom ul li a:hover {
     border-bottom: 3px solid rgba(58, 8, 8, 0.76);
+}
+
+@media only screen and (max-width: 768px) {
+    .header-bottom ul li {
+        font-size: 1rem;
+    }
+    .header-bottom ul li a {
+        padding: 10px 2px;
+    }
 }

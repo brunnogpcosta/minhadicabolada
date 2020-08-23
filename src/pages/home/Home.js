@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 
 import './Home.css';
-import Pessoa from './foto-pessoa.jpg'
+import Pessoa from './java.png'
 
 class Home extends Component {
     render() {

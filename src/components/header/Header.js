@@ -10,7 +10,7 @@ class Header extends Component {
             <div className="header-content">
                 <div className="header-top">
                     <ul>
-                        <li><a href="">Logo</a></li>
+                        <li><a href="">DB</a></li>
                         <li><a href="">Dica Bolada</a></li>
                         <li><a href=""><FiInstagram className="icon"/></a></li>
 

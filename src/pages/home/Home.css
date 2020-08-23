@@ -1,0 +1,56 @@
+.home-content {
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.meu-card {
+    width: 200px;
+    padding: 10px;
+    background-color:rgb(230, 223, 223);
+    border-radius: 5px;
+    border: 1px solid rgb(172, 172, 172);
+    margin:4rem 2rem 1rem 2rem;
+    
+}
+
+
+
+.figure img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-color: chartreuse;
+    border: 1px solid rgb(172, 172, 172)
+}
+
+.figcaption {
+    width: 200px;
+    background-color: rgb(238, 228, 228);
+    Word-wrap: break-Word;
+
+}
+
+
+.figcaption .fig-title {
+font-weight: bold;
+padding-top: 10px;
+margin-bottom: 10px;
+}
+
+.figcaption p {
+    padding: 0 1rem 1rem 1rem;
+    text-align: justify;
+ 
+}
+

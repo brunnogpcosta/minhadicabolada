@@ -1,33 +1,26 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    useRouteMatch,
-    useParams
-} from 'react-router-dom'
 
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import Home from './pages/home/Home'
+import Home from './pages/home/Home';
+import Sobre from './pages/sobre/Sobre';
+import NotFound from './pages/NotFound/notFound'
+
 
 
 
 function Routes() {
 
     return (
-        <Router>
+
+        <BrowserRouter>
             <Switch>
-                <Route path="/" exact component={Home} />
-                {/*  <Route path="/login" component={Login} />
-                <Route path="/cadastro" component={Cadastro} />
-                <Route path="/galeria" component={Galeria} />
-                <Route path="/upload" component={Upload} />
-               
+                <Route exact path="/" component={Home} />
+                <Route path="/Sobre" component={Sobre} />
                 <Route component={NotFound} />
-                 */}
             </Switch>
-        </Router>
+        </BrowserRouter>
+
     )
 
 }

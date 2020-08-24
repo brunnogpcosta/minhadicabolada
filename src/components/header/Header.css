@@ -1,3 +1,9 @@
+.header-content {
+    position: fixed;
+    width: 100%;
+
+}
+
 .header-top {
     background-color: rgb(247, 90, 90);
     width: 100%;
@@ -19,10 +25,8 @@
     margin-left: 2rem;
 }
 
-
-.header-top ul li:first-child{
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+.header-top ul li:first-child {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header-top ul li .icon:last-child {
@@ -32,7 +36,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
 }
 
-.header-top ul li a {
+.header-top ul li .link-style {
     color: black;
     text-decoration: none;
 }
@@ -45,7 +49,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
     text-align: center;
     border-bottom: 1px solid rgb(209, 29, 29);
-    box-shadow: 0px 5px 10px rgba(168, 168, 168, 0.425);
+    box-shadow: 0px 5px 10px rgba(82, 82, 82, 0.452);
 }
 
 .header-bottom ul {
@@ -55,18 +59,20 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .header-bottom ul li {
     display: inline-block;
     font-size: 1.5rem;
-    padding: 8px 15px;
+    padding: 10px 15px;
 }
 
 .header-bottom ul li a {
     text-decoration: none;
     color: black;
-    padding: 6px 2px;
+    padding: 8px 2px;
 }
 
 .header-bottom ul li a:hover {
     border-bottom: 3px solid rgba(58, 8, 8, 0.76);
 }
+
+
 
 @media only screen and (max-width: 768px) {
     .header-bottom ul li {

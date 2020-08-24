@@ -9,72 +9,133 @@ class Home extends Component {
         return (
             <div className="home-content">
 
-
                 <div className="wrapper">
                     <div className="meu-card">
-                        <figure className="figure">
-                            <img src={Pessoa} />
-                            <figcaption className="figcaption">
-                                <p className="fig-title">Curso de Java</p>
-                                <p>Curso completo de desenvolvimento Java.</p>
-                            </figcaption>
-                        </figure>
+                        <a href="" alt="Card de Divulgação" title="Card de divulgação">
+                            <figure className="figure">
+                                <img src={Pessoa} />
+                                <figcaption className="figcaption">
+                                    <p className="fig-title">Curso de Java</p>
+                                    <p>Curso completo de desenvolvimento Java.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </div>
 
                     <div className="meu-card">
-                        <figure className="figure">
-                            <img src={Pessoa} />
-                            <figcaption className="figcaption">
-                                <p className="fig-title">Curso de Java</p>
-                                <p>Curso completo de desenvolvimento Java.</p>
-                            </figcaption>
-                        </figure>
+                        <a href="" alt="Card de Divulgação" title="Card de divulgação">
+                            <figure className="figure">
+                                <img src={Pessoa} />
+                                <figcaption className="figcaption">
+                                    <p className="fig-title">Curso de Java</p>
+                                    <p>Curso completo de desenvolvimento Java.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </div>
 
                     <div className="meu-card">
-                        <figure className="figure">
-                            <img src={Pessoa} />
-                            <figcaption className="figcaption">
-                                <p className="fig-title">Curso de Java</p>
-                                <p>Curso completo de desenvolvimento Java.</p>
-                            </figcaption>
-                        </figure>
+                        <a href="" alt="Card de Divulgação" title="Card de divulgação">
+                            <figure className="figure">
+                                <img src={Pessoa} />
+                                <figcaption className="figcaption">
+                                    <p className="fig-title">Curso de Java</p>
+                                    <p>Curso completo de desenvolvimento Java.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </div>
 
                     <div className="meu-card">
-                        <figure className="figure">
-                            <img src={Pessoa} />
-                            <figcaption className="figcaption">
-                                <p className="fig-title">Curso de Java</p>
-                                <p>Curso completo de desenvolvimento Java.</p>
-                            </figcaption>
-                        </figure>
+                        <a href="" alt="Card de Divulgação" title="Card de divulgação">
+                            <figure className="figure">
+                                <img src={Pessoa} />
+                                <figcaption className="figcaption">
+                                    <p className="fig-title">Curso de Java</p>
+                                    <p>Curso completo de desenvolvimento Java.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </div>
 
                     <div className="meu-card">
-                        <figure className="figure">
-                            <img src={Pessoa} />
-                            <figcaption className="figcaption">
-                                <p className="fig-title">Curso de Java</p>
-                                <p>Curso completo de desenvolvimento Java.</p>
-                            </figcaption>
-                        </figure>
+                        <a href="" alt="Card de Divulgação" title="Card de divulgação">
+                            <figure className="figure">
+                                <img src={Pessoa} />
+                                <figcaption className="figcaption">
+                                    <p className="fig-title">Curso de Java</p>
+                                    <p>Curso completo de desenvolvimento Java.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </div>
 
                     <div className="meu-card">
-                        <figure className="figure">
-                            <img src={Pessoa} />
-                            <figcaption className="figcaption">
-                                <p className="fig-title">Curso de Java</p>
-                                <p>Curso completo de desenvolvimento Java.</p>
-                            </figcaption>
-                        </figure>
+                        <a href="" alt="Card de Divulgação" title="Card de divulgação">
+                            <figure className="figure">
+                                <img src={Pessoa} />
+                                <figcaption className="figcaption">
+                                    <p className="fig-title">Curso de Java</p>
+                                    <p>Curso completo de desenvolvimento Java.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div className="meu-card">
+                        <a href="" alt="Card de Divulgação" title="Card de divulgação">
+                            <figure className="figure">
+                                <img src={Pessoa} />
+                                <figcaption className="figcaption">
+                                    <p className="fig-title">Curso de Java</p>
+                                    <p>Curso completo de desenvolvimento Java.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div className="meu-card">
+                        <a href="" alt="Card de Divulgação" title="Card de divulgação">
+                            <figure className="figure">
+                                <img src={Pessoa} />
+                                <figcaption className="figcaption">
+                                    <p className="fig-title">Curso de Java</p>
+                                    <p>Curso completo de desenvolvimento Java.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div className="meu-card">
+                        <a href="" alt="Card de Divulgação" title="Card de divulgação">
+                            <figure className="figure">
+                                <img src={Pessoa} />
+                                <figcaption className="figcaption">
+                                    <p className="fig-title">Curso de Java</p>
+                                    <p>Curso completo de desenvolvimento Java.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div className="meu-card">
+                        <a href="" alt="Card de Divulgação" title="Card de divulgação">
+                            <figure className="figure">
+                                <img src={Pessoa} />
+                                <figcaption className="figcaption">
+                                    <p className="fig-title">Curso de Java</p>
+                                    <p>Curso completo de desenvolvimento Java.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </div>
 
 
                 </div>
 
-            </div >
+            </div>
+
+
         )
     }
 }
